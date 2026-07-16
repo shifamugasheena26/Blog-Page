@@ -131,11 +131,6 @@ header ul li{
     letter-spacing: -4%;
     color:#FFFFFF;
 }
-.strategy-img{
-    height: 100%;
-    display: block;
-    object-fit: cover;
-}
 
 /* stories */
 .stories{
@@ -198,8 +193,34 @@ header ul li{
     object-fit: cover;
     display: block;
 }
-
-
+/* marketing */
+.marketing-wrapper{
+    max-width: 1200px;
+    margin:0px auto;
+}
+.marketing h5{
+    font-size:18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    color:#838696;
+}
+.marketing h3{
+    font-size:36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -4%;
+    
+}
+.marketing-wrapper >div>div:nth-child(1)>{
+    background-color: red;
+}
+.marketing-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 @media screen and (mix-width: 768px) {
