@@ -193,7 +193,11 @@ header ul li{
     object-fit: cover;
     display: block;
 }
+
 /* marketing */
+.marketing{
+    background-color: #FAFAFA;
+}
 .marketing-wrapper{
     max-width: 1200px;
     margin:0px auto;
@@ -221,14 +225,71 @@ header ul li{
     height: auto;
     display: block;
 }
-
-
-@media screen and (mix-width: 768px) {
-    .strategy-img {
-        width: 100%;
-        border-radius: 24px;
-    }
+/* connect */
+.connect{
+    padding: 100px 0px;
+    background-color: #FAFAFA;
 }
+.connect button{
+    border: none;
+}
+.connect input:focus{
+    outline: none;
+}
+.connect-wrapper{
+    background-color: #E0F7FA;
+    border-radius: 24px;
+    padding:30px 40px;
+}
+.connect-wrapper >div{
+     display: flex;
+     align-items: center;
+}
+
+.connect-wrapper>div>div:nth-child(1) >div{
+    position: relative;
+    
+}
+.connect-wrapper>div>div:nth-child(1) >div input{
+    border: none;
+    width: 100%;
+    padding:15px 15px;
+    border-radius: 12px;
+    color:#838696;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #E2E4E9;   
+}
+.connect-wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color:#838696;
+}
+.connect-wrapper>div>div:nth-child(1) >div button{
+    padding:10px 20px;
+    background-color: #651FFF;
+    border-radius:12px ;
+    color:#FFFFFF;
+    position:absolute;
+    top:105px ;
+    right:5px;
+}
+.connect-wrapper span{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: -2%;
+    font-weight: 400;
+    color:#838696;
+}
+.connect-wrapper h4{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -4%;
+}
+
+
 
 @media screen and (max-width:1150px){
     .header-wrapper nav {
@@ -239,3 +300,79 @@ header ul li{
     }
     
 }
+/* weekly */
+.weekly h5{
+    font-size:18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    color:#838696;
+}
+.weekly h3{
+    font-size:36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -4%;   
+}
+.weekly-wrapper >div>div>div > div >span{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -2%;
+    color:#651FFF;
+    text-transform: uppercase;
+}
+.weekly-wrapper h3{
+    font-size:20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -3%;
+    margin:20px 0px 25px 0px;
+}
+.weekly-wrapper h5{
+    font-size:14px;
+    font-weight: 700;
+    letter-spacing: -2%;
+    text-transform:inherit;
+    color:#000000;
+}
+.feb{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -2%;
+    color:#838696;
+}
+.shade{
+    box-shadow: 1px 2px 40px 20px #FAFAFA;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.weekly-wrapper>div>div>div>div:last-child{
+    /* background-color: red; */
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.week{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+
+
+
+    /* @media  screen and (max-width:700px) {
+        .stories .container{
+        max-width: 500px;
+    }
+    } */
+    
